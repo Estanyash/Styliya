@@ -1,0 +1,24 @@
+@import "./normalize.css";
+@import "./fonts/font.css";
+@import "./blocks/nav.css";
+@import "./blocks/logo.css";
+@import "./blocks/services.css";
+@import "./blocks/hero.css";
+@import "./blocks/card.css";
+@import "./blocks/brands.css";
+@import "./blocks/recently_section.css";
+@import "./blocks/category.css";
+@import "./blocks/contacts.css";
+@import "./blocks/rights_reserved.css";
+@import "./blocks/reset_manual.css";
+@import "./blocks/border.css";
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -1,0 +1,47 @@
+.logo {
+    width: 258px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo__bg {
+    background-color: #FFFFFF;
+}
+
+.tel_bt_block {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo_block {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo_block_bg {
+    background-color: #FFFFFF;
+}
+
+.tel-number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bt__tel-me {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    background: #FFFFFF;
+    padding: 12px 26px 13px 27px;
+}

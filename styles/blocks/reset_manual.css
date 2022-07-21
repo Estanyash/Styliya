@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+button {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    margin: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h2 {
+    margin: 0;
+}
+
+input {
+    padding: 0;
+    border: 0;
+}
+
+q {
+    text-decoration: none;
+    quotes: none;
+}

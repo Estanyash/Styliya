@@ -1,0 +1,17 @@
+.rights_reserved {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.rights_reserved__bg {
+    background: #EFEFEF;
+}

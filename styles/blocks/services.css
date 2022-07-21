@@ -1,0 +1,142 @@
+.services__bg {
+    background-color: #FFFFFF;
+}
+
+.services__list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.special_offer__promotion {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.special_offer__email {
+    width: 540px;
+    background-color: #F13C6E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 45px 35px 40px;
+    align-items: center;
+}
+
+.special_offer__shops {
+    width: 540px;
+    background-color: #F13C6E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 45px 35px 40px;
+    align-items: center;
+}
+
+.special_offer__email--content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: flex-start;
+}
+
+.special_offer__email--image {
+    align-self: center;
+}
+
+.special_offer__email--title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.special_offer__email--description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 238px;
+}
+
+.special_offer__email--input {
+    width: 225px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.special_offer__shops--title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.special_offer__shops--description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 238px;
+}
+
+.special_offer__shops--bt {
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 170px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.special_offer__shops--content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: flex-start;
+}
+
+.special_offer__shops::after {
+    content: url("../../images/car_img.png");
+    display: inline-block;
+    width: 189px;
+    height: 100px;
+}
+
+.special_offer__email::after {
+    content: url("../../images/envelope.png");
+    display: inline-block;
+    width: 140px;
+    height: 106px;
+}

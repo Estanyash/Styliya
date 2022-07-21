@@ -1,0 +1,68 @@
+.contacts_bg {
+    background-color: #FFFFFF;;
+}
+
+.contacts {
+    padding-top: 37px;
+    padding-bottom: 38px;
+}
+
+.contacts__social_nets--youtube {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 2px solid #F13C6E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__social_nets--vk {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 2px solid #F13C6E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__social_nets--facebook {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 2px solid #F13C6E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__social_nets--insta {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 2px solid #F13C6E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.contacts__social_nets {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.contacts__tel_bt_block {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}

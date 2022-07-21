@@ -1,0 +1,30 @@
+.brands {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.brands_list {
+    width: 1110px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 130px;
+}
+
+.brands_list_img_row_upper {
+    padding: 35px 69px 35px 60px;
+    border-right: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.brands_list_img_row_middle {
+    padding: 35px 69px 35px 60px;
+    border-right: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.brands_list_img_row_lower {
+    padding: 35px 69px 35px 60px;
+    border-right: 1px solid #EFEFEF;
+}

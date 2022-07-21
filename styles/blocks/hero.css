@@ -1,0 +1,54 @@
+.hero {
+    background-color: #F13C6E;
+    position: relative;
+}
+
+.img__chair {
+    display: flex;
+    justify-content: center;
+}
+
+.hero_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF; 
+}
+
+.hero_description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.hero_bt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: flex-start;
+    row-gap: 50px;
+    flex-direction: column;
+    top: 193px;
+    width: 308px;
+    position: absolute;
+    z-index: 1;
+}
